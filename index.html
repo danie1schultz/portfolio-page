@@ -1,222 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Daniel Schultz</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- HEADER -->
-    <div class="container">
-      <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="./index.html" class="nav-link active" aria-current="page"
-              >Home</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="./public/about.html" class="nav-link">About Me</a>
-          </li>
-          <li class="nav-item">
-            <a href="./public/projects.html" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="./public/contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </header>
-    </div>
 
-    <!-- INTRODUCTION -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="./images/profile_pic.jpg"
-            class="profile-img d-block mx-lg-auto img-fluid"
-            alt="Daniel working on a computer"
-            height="500"
-            loading="lazy"
-          />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Schultz</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="container">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="./index.html" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="./public/about.html" class="nav-link">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a href="./public/projects.html" class="nav-link">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="./public/contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </header>
+  </div>
+
+  <!-- INTRODUCTION -->
+  <div class="container col-xxl-8 px-4 py-5">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="./images/profile_pic.jpg" class="profile-img d-block mx-lg-auto img-fluid"
+          alt="Daniel working on a computer" height="500" loading="lazy" />
+      </div>
+      <div class="col-lg-6">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+          Hi, <br />I'm Daniel.<br />
+          A Web Developer
+        </h1>
+        <p class="lead">
+          I enjoy creating user friendly and visually appealing websites and
+          web applications that make people's lives simpler.
+        </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <a href="./public/about.html" type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+            About Me
+          </a>
         </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
-            Hi, <br />I'm Daniel.<br />
-            A Web Developer
-          </h1>
-          <p class="lead">
-            I enjoy creating user friendly and visually appealing websites and
-            web applications that make people's lives simpler.
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Let's Work Together</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="26" fill="currentColor" class="bi bi-laptop"
+            viewBox="0 0 16 16">
+            <path
+              d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Web Design</h3>
+          <p>
+            I can create beautiful and user-friendly websites that meet your
+            specific needs. I will work with you to understand your goals and
+            create a website that is both functional and aesthetically
+            pleasing.
           </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <a
-              href="./public/about.html"
-              type="button"
-              class="btn btn-primary btn-lg px-4 me-md-2"
-            >
-              About Me
-            </a>
-          </div>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="22" fill="currentColor" class="bi bi-envelope-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Email Marketing</h3>
+          <p>
+            I can help you setup an email marketing service for your small business with engaging email designs, tips on
+            audience engagement, and helpful automations.
+          </p>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div
+          class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="22" fill="currentColor" class="bi bi-book"
+            viewBox="0 0 16 16">
+            <path
+              d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811V2.828zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Learning Management Systems</h3>
+          <p>
+            Need to develop an online course? I can help you deliver engaging and effective online lessons to your
+            clients tailored to your specific needs and budget including features like course tracking, quizzes, and
+            assignments.
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- SERVICES -->
-    <div class="container px-4 py-5" id="hanging-icons">
-      <h2 class="pb-2 border-bottom">Websites Done Right</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="26"
-              fill="currentColor"
-              class="bi bi-laptop"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"
-              />
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Web Design</h3>
-            <p>
-              I can create beautiful and user-friendly websites that meet your
-              specific needs. I will work with you to understand your goals and
-              create a website that is both functional and aesthetically
-              pleasing.
-            </p>
-          </div>
+  <!-- PORTFOLIO -->
+  <div class="container">
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+      <h2 class="pb-2 border-bottom">Featured Projects</h2>
+
+      <div class="row featurette mt-lg-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Expat Wellness
+            <!-- <span class="text-body-secondary">It’ll blow your mind.</span> -->
+          </h2>
+          <p class="lead">
+            This is a travel themed landing page created for a health coaching
+            business startup. I used WordPress and Elementor to create a
+            visually appealing webpage where the business owner was able to
+            introduce herself, share details about her program, and sell her
+            services to potential clients.
+          </p>
         </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="22"
-              fill="currentColor"
-              class="bi bi-search"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
-              />
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">SEO</h3>
-            <p>
-              I can help you improve your website's search engine ranking so
-              that more people can find it. I will use my knowledge of search
-              engine algorithms to optimize your website for relevant keywords.
-            </p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="22"
-              fill="currentColor"
-              class="bi bi-tools"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"
-              />
-            </svg>
-          </div>
-          <div>
-            <h3 class="fs-2 text-body-emphasis">Maintenance</h3>
-            <p>
-              I can keep your website up and running smoothly. I will perform
-              regular updates and maintenance to ensure that your website is
-              always secure and accessible.
-            </p>
-          </div>
+        <div class="col-md-5">
+          <a href="https://www.expatwellnesscoaching.com"><img src="./images/expat_wellness.jpg"
+              class="d-block mx-lg-auto img-fluid" alt="Expat Wellness Website" height="500" /></a>
         </div>
       </div>
-    </div>
 
-    <!-- PORTFOLIO -->
-    <div class="container">
-      <div class="container marketing">
-        <!-- START THE FEATURETTES -->
-        <h2 class="pb-2 border-bottom">Featured Projects</h2>
+      <hr class="featurette-divider" />
 
-        <div class="row featurette mt-lg-5">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
-              Expat Wellness
-              <!-- <span class="text-body-secondary">It’ll blow your mind.</span> -->
-            </h2>
-            <p class="lead">
-              This is a travel themed landing page created for a health coaching
-              business startup. I used WordPress and Elementor to create a
-              visually appealing webpage where the business owner was able to
-              introduce herself, share details about her program, and sell her
-              services to potential clients.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <a href="https://www.expatwellnesscoaching.com"
-              ><img
-                src="./images/expat_wellness.jpg"
-                class="d-block mx-lg-auto img-fluid"
-                alt="Expat Wellness Website"
-                height="500"
-            /></a>
-          </div>
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Micaela Roper Fitness
+          </h2>
+          <p class="lead">This is a landing page created for a fitness coaching business using Wordpress and Spectra. I
+            was able to help my client develop an engaging way to introduce her business and an easy way to contact her
+            through an online form.</p>
         </div>
-
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
-              More coming soon...
-            </h2>
-            <p class="lead">Check back later for more cool projects!</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect
-                width="100%"
-                height="100%"
-                fill="var(--bs-secondary-bg)"
-              ></rect>
-              <text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">
-                500x500
-              </text>
-            </svg>
-          </div>
+        <div class="col-md-5">
+          <a href="https://www.micaelaroperfit.com"><img src="./images/roperfit.png"
+              class="d-block mx-lg-auto img-fluid" alt="Micaela Roper Fitness Website" height="500" /></a>
         </div>
+      </div>
 
-        <!-- <hr class="featurette-divider" />
+      <!-- <hr class="featurette-divider" />
 
           <div class="row featurette">
             <div class="col-md-7">
@@ -260,33 +204,32 @@
             </div>
           </div> -->
 
-        <hr class="featurette-divider" />
+      <hr class="featurette-divider" />
 
-        <!-- /END THE FEATURETTES -->
-      </div>
-      <!-- /.container -->
+      <!-- /END THE FEATURETTES -->
     </div>
+    <!-- /.container -->
+  </div>
 
-    <!--MORE PROJECTS-->
-    <div class="container my-5">
-      <div class="p-5 text-center bg-body-tertiary rounded-3">
-        <h1 class="text-body-emphasis">Check out more of my projects!</h1>
-        <p class="lead">From real-world business sites to fun web apps</p>
-        <a href="./public/projects.html" class="btn btn-primary"
-          >See Portfolio</a
-        >
-      </div>
+  <!--MORE PROJECTS-->
+  <div class="container my-5">
+    <div class="p-5 text-center bg-body-tertiary rounded-3">
+      <h1 class="text-body-emphasis">Check out more of my projects!</h1>
+      <p class="lead">From real-world business sites to fun web apps</p>
+      <a href="./public/projects.html" class="btn btn-primary">See Portfolio</a>
     </div>
+  </div>
 
-    <!-- FOOTER -->
-    <hr class="featurette-divider" />
-    <footer class="container">
-      <p class="float-end"><a href="#">Back to top</a></p>
-      <p>
-        © Daniel Schultz
-        <!-- · <a href="#">Privacy</a> ·
+  <!-- FOOTER -->
+  <hr class="featurette-divider" />
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>
+      © Daniel Schultz
+      <!-- · <a href="#">Privacy</a> ·
             <a href="#">Terms</a> -->
-      </p>
-    </footer>
-  </body>
+    </p>
+  </footer>
+</body>
+
 </html>
